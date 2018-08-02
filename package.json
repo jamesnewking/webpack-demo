@@ -4,6 +4,7 @@
   "description": "Demo Webpack setup",
   "main": "index.js",
   "scripts": {
+    "bundle": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,12 @@
   },
   "homepage": "https://github.com/jamesnewking/webpack-demo#readme",
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.21.0",
     "webpack": "^4.16.4",
     "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }
